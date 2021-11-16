@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #99738e;
+  font-family: sans-serif;
+  font-size: 10px;
+ 
+}
+form {
+  background: #fff;
+  padding: 4em 4em 2em;
+  max-width: 400px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+}
+.container {
+  margin: 10px 50px;
+}
+
+
+input {
+ 
+  padding: 15px 10px;
+}
+
+button {
+  width: 100px;
+  padding: 15px;
+
+  background: #fff;
+  color: dodgerblue;
+  border: solid 1px dodgerblue;
+  cursor: pointer;
+  transition: all 0.38s ease-in-out;
+}
+
+button:hover {
+  background: dodgerblue;
+  color: #fff;
+}
+
+table tr td {
+  border: solid 1px #400040;
+  padding: 10px;
+  font-size: 15px;
+}
+
